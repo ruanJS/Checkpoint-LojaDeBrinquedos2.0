@@ -29,7 +29,7 @@ Este projeto é uma aplicação web desenvolvida em Java com Spring Boot, que pe
 - **Design Responsivo:** O sistema conta com um layout simplificado e estilizado com CSS, permitindo que os usuários tenham uma experiência fluida ao acessar a aplicação.
   
 # Link do Site
-https://checkpoint-lojadebrinquedos2-0.onrender.com
+https://checkpoint-lojadebrinquedos20-production.up.railway.app/req/login
 
 ## Validação de Dados: 
 O uso de anotações de validação no BrinquedoDTO garante que os dados recebidos estão no formato correto e atendem às regras de negócio.
