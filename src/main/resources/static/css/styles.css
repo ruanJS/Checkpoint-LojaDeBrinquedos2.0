@@ -1,0 +1,141 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1511884642898-4c92249e20b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed; /* Adicione sua imagem de fundo aqui */
+    background-size: cover;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Barra de navegação */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #e0e0e0;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Conteúdo principal */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+td {
+    background-color: #2a2a2a;
+}
+
+/* Formulário com blur */
+.form-container {
+    background: rgba(30, 30, 30, 0.6);
+    backdrop-filter: blur(10px); /* Efeito de blur */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 50px; /* Adicionado para separar do cabeçalho */
+}
+
+form {
+    margin: 0;
+}
+
+form label {
+    color: #e0e0e0;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgba(30, 30, 30, 0.9);
+    color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
