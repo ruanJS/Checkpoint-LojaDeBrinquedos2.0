@@ -1,18 +1,33 @@
-# Loja de Brinquedo 2024
+# Loja de Brinquedo - Gerenciamento de Inventário com Spring Security
 
 # Visão Geral do Projeto
-O projeto é uma aplicação para gerenciar uma loja de brinquedos. O objetivo é permitir a criação, leitura, atualização e exclusão de informações sobre brinquedos em um sistema centralizado. Este sistema pode ser utilizado por funcionários da loja para gerenciar o inventário de brinquedos, bem como por outras partes interessadas para interagir com as informações de forma programática. Além disso, está sendo utilizado o Spring Security para que o usuário tenha que se logar para conseguir acessar os outros endpoints
+Este projeto é uma aplicação web desenvolvida em Java com Spring Boot, que permite o gerenciamento de brinquedos para uma loja virtual. A aplicação oferece funcionalidades de CRUD (Criar, Ler, Atualizar e Deletar) e é protegida por Spring Security, garantindo que apenas usuários autenticados possam acessar determinadas funcionalidades.
 
 # Tecnologias utilizadas:
-- **IDE:** IntelliJ
 - **Linguagem:** Java
-- **Framework:** SpringBoot
+- **Framework:** Spring Boot
+- **Segurança:** Spring Security com autenticação via login
+- **Banco de Dados:** Oracle
+- **Validação:** DTO com validação de dados
+- **IDE:** IntelliJ IDEA
+- **Deploy:** Render.com
 
 # Funcionalidades do Projeto
 ## Gerenciamento de Brinquedos:
 
-CRUD de Brinquedos: Permite criar, ler, atualizar e deletar brinquedos. Cada brinquedo possui atributos como nome, tipo, classificação, tamanho e preço.
+- CRUD Completo: Operações de criação, leitura, atualização e exclusão de brinquedos, com atributos como nome, tipo, tamanho, preço e classificação.
+- Validação de Dados: Uso de DTOs para garantir que os dados de entrada atendam às regras de negócio.
 
+## Segurança:
+
+- **Autenticação:** Proteção de endpoints com login via Spring Security.
+- **Formulário de Login:** Autenticação personalizada, redirecionando para a página de login caso o usuário não esteja autenticado.
+- **Sessão de Usuário:** Logout disponível e protegido.
+
+## Interface Amigável:
+
+- **Design Responsivo:** O sistema conta com um layout simplificado e estilizado com CSS, permitindo que os usuários tenham uma experiência fluida ao acessar a aplicação.
+  
 # Link do Site
 https://cp-javass.onrender.com/req/login
 
@@ -37,9 +52,8 @@ O uso de anotações de validação no BrinquedoDTO garante que os dados recebid
 
 ## Integrantes
 
-- Ana Paula Nascimento Silva (RM 552513) 
-- Calina Thalya Santana da Silva (RM 552523) 
-- Geovana Ribeiro D. Silva (RM 99646) 
-- Leonardo Camargo Lucena (RM 552537)
-- Nathan Nunes Calsonari (RM 552539) 
+- Ruan Guedes - rm551096
+- Ana Beatriz Bento Silva - rm552536
+- Angelo Augusto - rm98310
+- Alberto Rubinho - rm99706
 
