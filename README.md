@@ -35,10 +35,16 @@ https://checkpoint-lojadebrinquedos20-production.up.railway.app/req/login
 O uso de anotações de validação no BrinquedoDTO garante que os dados recebidos estão no formato correto e atendem às regras de negócio.
 
 ## Diagrama de classes
-![imagem](https://github.com/user-attachments/assets/b4ac6ea5-88b2-4360-94d9-d329004c5733)
+![DALL·E-2024-10-17-22 21 42-A-simple-UML-class-diagram-for-a-Toy-Store-project](https://github.com/user-attachments/assets/52a16ce8-7eb7-4a4b-aad4-75ac271c51f3)
 
-## Banco de dados
-![Captura de tela 2024-08-22 215726](https://github.com/user-attachments/assets/877a7f85-18b5-43a6-823f-92f978f0bd6e)
+
+## Banco de dados das tabelas brinquedos e usuário.
+## Tabela Brinquedos:
+![banco de dados - brinquedos](https://github.com/user-attachments/assets/4bfefa58-2f86-4b39-a76e-44641a6879e3)
+
+## Tabela Usuário:
+![banco de dados - users](https://github.com/user-attachments/assets/9f0324fa-6174-4991-9839-f7b9924486dd)
+
 
 ## Endpoints
 
